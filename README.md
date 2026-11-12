@@ -25,7 +25,7 @@ Desenvolvedor **backend** focado em **PHP / Laravel** e **Python**, construindo 
 
 | Área | Tecnologias |
 |---|---|
-| **Backend** | <img src="https://skillicons.dev/icons?i=php,laravel,python,fastapi" height="36" alt="PHP, Laravel, Python, FastAPI" /> |
+| **Backend** | <img src="https://skillicons.dev/icons?i=php,laravel,python" height="36" alt="PHP, Laravel, Python" /> |
 | **Frontend** | <img src="https://skillicons.dev/icons?i=js,react,html,css,sass,bootstrap" height="36" alt="JavaScript, React, HTML, CSS, Sass, Bootstrap" /> |
 | **Banco de dados** | <img src="https://skillicons.dev/icons?i=mysql" height="36" alt="MySQL" /> |
 | **DevOps / Infra** | <img src="https://skillicons.dev/icons?i=docker,terraform,githubactions,linux,bash,git" height="36" alt="Docker, Terraform, GitHub Actions, Linux, Bash, Git" /> |
