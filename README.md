@@ -1,35 +1,84 @@
 <a href="https://github.com/tauganyc">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:0d1117,100:1f6feb&text=Taugany%20Corr%C3%AAa%20de%20Souza&fontColor=ffffff&fontSize=38&fontAlignY=36&desc=Desenvolvedor%20Backend%20%C2%B7%20PHP%20%2F%20Laravel%20%C2%B7%20Python&descAlignY=58&descSize=18" alt="Taugany Corrêa de Souza: Desenvolvedor Backend" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0d1117,100:1f6feb&text=Taugany%20Corr%C3%AAa%20de%20Souza&fontColor=ffffff&fontSize=38&fontAlignY=34&desc=Backend%20Engineer%20%C2%B7%20PHP%20%2F%20Laravel%20%C2%B7%20Python%20%C2%B7%20Cloud%20Native&descAlignY=56&descSize=18" alt="Taugany Corrêa de Souza: Backend Engineer" />
 </a>
 
 <p align="center">
   <a href="mailto:tauganyc@hotmail.com"><img src="https://img.shields.io/badge/E--mail-tauganyc%40hotmail.com-1f6feb?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="E-mail" /></a>
-  <img src="https://img.shields.io/badge/Contribui%C3%A7%C3%B5es-5.100%2B-2ea043?style=for-the-badge&logo=github&logoColor=white" alt="5.100+ contribuições" />
-  <img src="https://img.shields.io/badge/Pull%20Requests-1.000%2B-8957e5?style=for-the-badge&logo=git&logoColor=white" alt="1.000+ pull requests" />
+  <img src="https://img.shields.io/badge/Em%20produ%C3%A7%C3%A3o%20desde-2022-0d1117?style=for-the-badge&logo=serverless&logoColor=white" alt="Em produção desde 2022" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Contribui%C3%A7%C3%B5es-5.100%2B-2ea043?style=flat-square&logo=github&logoColor=white" alt="5.100+ contribuições" />
+  <img src="https://img.shields.io/badge/Commits%20em%20sistemas%20de%20produ%C3%A7%C3%A3o-3.100%2B-1f6feb?style=flat-square&logo=git&logoColor=white" alt="3.100+ commits" />
+  <img src="https://img.shields.io/badge/Pull%20Requests-1.000%2B-8957e5?style=flat-square&logo=githubactions&logoColor=white" alt="1.000+ pull requests" />
+  <img src="https://img.shields.io/badge/Sistemas%20mantidos-20%2B-e3602b?style=flat-square&logo=databricks&logoColor=white" alt="20+ sistemas" />
 </p>
 
 ## Sobre mim
 
-Desenvolvedor **backend** focado em **PHP / Laravel** e **Python**, construindo e mantendo **sistemas em produção** desde 2023: APIs, plataformas internas e serviços de alto volume. A maior parte do meu trabalho está em repositórios privados de empresa, por isso o gráfico de contribuições mostra muito mais do que os projetos públicos abaixo.
+**Engenheiro backend** com foco em **PHP / Laravel** e **Python**. Desde **2022** desenvolvo e mantenho **sistemas em produção**: APIs, plataformas de mensageria de alto volume, workers assíncronos e painéis internos, do código até o deploy em **Docker e Kubernetes**.
 
-**O que eu desenvolvo no dia a dia:**
+A maior parte do meu trabalho está em **repositórios privados**, por isso o gráfico de contribuições mostra bem mais do que os projetos públicos abaixo.
 
-- 📨 **Automação de marketing e mensageria:** plataformas de disparo de e-mail e push, filas de envio, verificação de e-mails e roteamento de tráfego
-- 🔌 **APIs e integrações:** APIs REST em Laravel, serviços em Python e integração entre sistemas
-- 📊 **Painéis e dashboards:** painéis administrativos, relatórios de monetização e funis de captura de leads (quizzes e formulários)
-- 🪵 **Observabilidade:** centralização de logs e monitoramento das aplicações
-- ☁️ **Infraestrutura:** Docker, GitOps e infraestrutura como código com Terraform
-- 🤖 **IA aplicada:** ferramentas internas e automações com LLMs e geração de conteúdo
+### O que eu construo
+
+- 📨 **Mensageria em escala:** plataformas de disparo de **e-mail** (SendGrid) e **Web Push** (VAPID), com segmentação de audiência, automações em etapas e processamento de webhooks de eventos
+- ⚙️ **Arquitetura orientada a eventos:** workers independentes consumindo **AWS SQS/SNS**, padrão **Outbox**, **Dead Letter Queues** com redrive e filas **Redis + Laravel Horizon**
+- 🔌 **APIs:** REST em **Laravel** (Sanctum, Octane, documentação OpenAPI/Swagger) e **FastAPI** (Pydantic, SQLAlchemy/Alembic, APScheduler), roteamento de tráfego e verificação de e-mails
+- 🗄️ **Dados:** **MySQL**, **PostgreSQL** (incluindo Postgres distribuído com **Citus**), **MongoDB** para centralização de logs, **Redis**, **Meilisearch** e **DuckDB**
+- 📊 **Painéis e produtos internos:** painéis administrativos, funis de leads (quizzes e formulários), CMS, integração com **Google Ads API** e editores visuais de fluxo em **React Flow**
+- ☁️ **Cloud e DevOps:** **Docker**, **Kubernetes + Helm + ArgoCD (GitOps)**, Nginx, Caddy, Supervisor, CI/CD com **GitHub Actions**, AWS (SQS, SNS, S3, LocalStack) e Google Cloud Storage
+- 🔭 **Observabilidade:** OpenTelemetry, centralização de logs e health checks
+- 🤖 **IA aplicada:** integrações com OpenAI e LLMs, servidores MCP para Laravel, terminal multiagente em Electron e pipelines de geração de vídeo com TTS e Whisper
 
 ## Stack
 
-| Área | Tecnologias |
-|---|---|
-| **Backend** | <img src="https://skillicons.dev/icons?i=php,laravel,python" height="36" alt="PHP, Laravel, Python" /> |
-| **Frontend** | <img src="https://skillicons.dev/icons?i=js,react,html,css,sass,bootstrap" height="36" alt="JavaScript, React, HTML, CSS, Sass, Bootstrap" /> |
-| **Banco de dados** | <img src="https://skillicons.dev/icons?i=mysql" height="36" alt="MySQL" /> |
-| **DevOps / Infra** | <img src="https://skillicons.dev/icons?i=docker,terraform,githubactions,linux,bash,git" height="36" alt="Docker, Terraform, GitHub Actions, Linux, Bash, Git" /> |
-| **Também já usei** | <img src="https://skillicons.dev/icons?i=java,c" height="36" alt="Java, C" /> |
+<table>
+  <tr>
+    <td><b>Linguagens</b></td>
+    <td><img src="https://skillicons.dev/icons?i=php,python,ts,js,bash" height="38" alt="PHP, Python, TypeScript, JavaScript, Bash" /></td>
+  </tr>
+  <tr>
+    <td><b>Backend</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=laravel,fastapi,nodejs" height="38" alt="Laravel, FastAPI, Node.js" /><br/>
+      <img src="https://img.shields.io/badge/Laravel%20Horizon-405263?style=flat-square&logo=laravel&logoColor=white" alt="Laravel Horizon" /> <img src="https://img.shields.io/badge/Laravel%20Octane-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel Octane" /> <img src="https://img.shields.io/badge/Livewire-4E56A6?style=flat-square&logo=livewire&logoColor=white" alt="Livewire" /> <img src="https://img.shields.io/badge/Sanctum-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Sanctum" /> <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic" /> <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy" /> <img src="https://img.shields.io/badge/OpenAPI%20/%20Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=white" alt="OpenAPI / Swagger" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Bancos de dados</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,sqlite" height="38" alt="MySQL, PostgreSQL, MongoDB, Redis, SQLite" /><br/>
+      <img src="https://img.shields.io/badge/Citus-336791?style=flat-square&logo=postgresql&logoColor=white" alt="Citus" /> <img src="https://img.shields.io/badge/Meilisearch-FF5CAA?style=flat-square&logo=meilisearch&logoColor=white" alt="Meilisearch" /> <img src="https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=white" alt="DuckDB" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Mensageria</b></td>
+    <td><img src="https://img.shields.io/badge/AWS%20SQS-FF4F8B?style=flat-square&logo=amazonsqs&logoColor=white" alt="AWS SQS" /> <img src="https://img.shields.io/badge/AWS%20SNS-FF4F8B?style=flat-square&logo=amazonaws&logoColor=white" alt="AWS SNS" /> <img src="https://img.shields.io/badge/Redis%20Queues-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis Queues" /> <img src="https://img.shields.io/badge/SendGrid-1A82E2?style=flat-square&logo=twilio&logoColor=white" alt="SendGrid" /> <img src="https://img.shields.io/badge/Web%20Push-5A0FC8?style=flat-square&logo=pwa&logoColor=white" alt="Web Push" /></td>
+  </tr>
+  <tr>
+    <td><b>Cloud & DevOps</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,nginx,githubactions,linux" height="38" alt="Docker, Kubernetes, AWS, GCP, Nginx, GitHub Actions, Linux" /><br/>
+      <img src="https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white" alt="Helm" /> <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white" alt="ArgoCD" /> <img src="https://img.shields.io/badge/Caddy-1F88C0?style=flat-square&logo=caddy&logoColor=white" alt="Caddy" /> <img src="https://img.shields.io/badge/HashiCorp%20Vault-FFEC6E?style=flat-square&logo=vault&logoColor=white" alt="HashiCorp Vault" /> <img src="https://img.shields.io/badge/LocalStack-4D29B4?style=flat-square&logo=localstack&logoColor=white" alt="LocalStack" /> <img src="https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat-square&logo=opentelemetry&logoColor=white" alt="OpenTelemetry" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Frontend</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=react,vue,nuxtjs,vite,tailwind,bootstrap" height="38" alt="React, Vue, Nuxt, Vite, Tailwind, Bootstrap" /><br/>
+      <img src="https://img.shields.io/badge/TanStack%20Query-FF4154?style=flat-square&logo=reactquery&logoColor=white" alt="TanStack Query" /> <img src="https://img.shields.io/badge/React%20Flow-FF0072?style=flat-square&logo=react&logoColor=white" alt="React Flow" /> <img src="https://img.shields.io/badge/shadcn/ui-000000?style=flat-square&logo=shadcnui&logoColor=white" alt="shadcn/ui" /> <img src="https://img.shields.io/badge/Alpine.js-8BC0D0?style=flat-square&logo=alpinedotjs&logoColor=white" alt="Alpine.js" /> <img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white" alt="Chart.js" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Qualidade</b></td>
+    <td><img src="https://img.shields.io/badge/Pest-F28D1A?style=flat-square" alt="Pest" /> <img src="https://img.shields.io/badge/PHPUnit-366488?style=flat-square&logo=php&logoColor=white" alt="PHPUnit" /> <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="Pytest" /> <img src="https://img.shields.io/badge/Laravel%20Pint-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel Pint" /> <img src="https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white" alt="ESLint" /> <img src="https://img.shields.io/badge/Biome-60A5FA?style=flat-square&logo=biome&logoColor=white" alt="Biome" /> <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white" alt="Selenium" /></td>
+  </tr>
+  <tr>
+    <td><b>IA</b></td>
+    <td><img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" /> <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=anthropic&logoColor=white" alt="MCP" /> <img src="https://img.shields.io/badge/LiteLLM-1E293B?style=flat-square" alt="LiteLLM" /> <img src="https://img.shields.io/badge/Whisper-412991?style=flat-square&logo=openai&logoColor=white" alt="Whisper" /> <img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron" /></td>
+  </tr>
+</table>
 
 ## Estatísticas
 
@@ -54,7 +103,7 @@ Desenvolvedor **backend** focado em **PHP / Laravel** e **Python**, construindo 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/3-stats.svg" />
-    <img width="49%" src="./profile-summary-card-output/github/3-stats.svg" alt="Estatísticas" />
+    <img width="49%" src="./profile-summary-card-output/github/3-stats.svg" alt="Estatísticas públicas" />
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/4-productive-time.svg" />
@@ -73,16 +122,16 @@ Desenvolvedor **backend** focado em **PHP / Laravel** e **Python**, construindo 
 
 | Ano | Contribuições | Destaques |
 |---|---:|---|
-| **2026** | 1.700+ | Plataformas de automação e mensageria, infraestrutura como código, ferramentas com IA |
-| **2025** | 1.780+ | Evolução de APIs e painéis em produção, serviços em Python, frontends em React |
-| **2024** | 1.130+ | Consolidação em Laravel: APIs, painel administrativo, roteamento de links e hackathon |
-| **2023** | 360+ | Primeiros sistemas em produção: dashboards, pesquisas e APIs em PHP |
-| **2022** | 100+ | PHP e Python: sistemas web acadêmicos e processos seletivos |
+| **2026** | 1.700+ | Plataforma de disparo orientada a eventos (SQS/SNS, Outbox, DLQ, Postgres/Citus), CMS em React e Nuxt, Web Push com FastAPI, logs centralizados em MongoDB, deploy em Kubernetes com Helm e ArgoCD, ferramentas com IA e MCP |
+| **2025** | 1.780+ | Painel administrativo em Laravel (mais de 500 commits no ano), API de automação de marketing v2, funis de leads, serviços em FastAPI para roteamento de tráfego e verificação de e-mails |
+| **2024** | 1.130+ | Evolução do painel administrativo e das APIs, automação de marketing com filas no Horizon, quizzes, integração com Google Ads API e primeiro serviço em FastAPI |
+| **2023** | 360+ | Dashboards e sistemas de pesquisa em produção, início no painel administrativo e nas APIs em Laravel, primeiros ambientes em Docker |
+| **2022** | 100+ | Primeiros sistemas mantidos em produção, em PHP (incluindo um sistema hospitalar), e projetos em Python |
 | **2021** | 13 | Início: lógica e programação estruturada em C |
 
 <sub>Números consolidados em novembro de 2026, incluindo contribuições em repositórios privados.</sub>
 
-## Projetos públicos em destaque
+## Projetos públicos
 
 | Projeto | Descrição | Stack |
 |---|---|---|
